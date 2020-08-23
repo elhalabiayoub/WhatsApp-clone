@@ -1,0 +1,25 @@
+.chat {
+	flex: 0.7;
+	display: flex;
+	flex-direction: column;
+}
+.chat__messages {
+	flex: 1;
+	overflow-y: scroll;
+	background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+	background-size: 500px;
+	background-repeat: repeat;
+	padding: 20px;
+}
+.chat__messages::-webkit-scrollbar {
+	width: 7px;
+}
+
+/*.chat__messages::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}*/
+
+.chat__messages::-webkit-scrollbar-thumb {
+	background-color: rgba(169, 169, 169, 0.8);
+	outline: 1px solid slategrey;
+}

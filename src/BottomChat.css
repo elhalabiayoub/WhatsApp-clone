@@ -1,0 +1,37 @@
+.bottomChat {
+	display: flex;
+	height: 70px;
+	align-items: center;
+	background-color: rgb(237, 237, 237);
+	border-bottom-right-radius: 20px;
+}
+
+.bottomChat__emoji {
+	margin: 0 20px;
+	color: grey;
+	font-size: 30px !important;
+	cursor: pointer;
+}
+
+.bottomChat__form {
+	background-color: white;
+	flex: 1;
+	border-radius: 20px;
+	padding: 15px;
+}
+
+.bottomChat__form > form > input {
+	width: 100%;
+	border: none;
+	height: 100%;
+}
+
+.bottomChat__form > form > input:focus {
+	outline: none;
+}
+.bottomChat__mic {
+	margin: 0 20px;
+	color: gray;
+	cursor: pointer;
+	font-size: 30px !important;
+}

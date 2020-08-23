@@ -1,0 +1,18 @@
+.header {
+	background-color: rgb(237, 237, 237);
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 10px;
+	border-top-left-radius: 20px;
+}
+.header__icons {
+	display: flex;
+}
+.header__icons > .icon {
+	margin-right: 20px; /* with small devices will be 10px */
+	color: grey;
+	cursor: pointer;
+	font-size: 28px;
+}

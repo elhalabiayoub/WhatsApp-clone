@@ -1,0 +1,22 @@
+.topChat {
+	display: flex;
+	align-items: center;
+	height: 70px;
+	background-color: rgb(237, 237, 237);
+	border-top-right-radius: 20px;
+	border-bottom: 1px solid rgba(211, 211, 211, 0.4);
+}
+
+.topChat__avatar {
+	margin: 0 13px;
+}
+
+.topChat > p {
+	flex: 1;
+}
+
+.topChat__icons > .icon {
+	margin-right: 18px;
+	color: grey;
+	cursor: pointer;
+}

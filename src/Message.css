@@ -1,0 +1,36 @@
+.message {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.message__blockright {
+	margin-left: auto;
+}
+
+.message__text {
+	background-color: white;
+	width: fit-content;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 15px;
+	border-top-left-radius: 0px;
+}
+
+.message__send {
+	background-color: rgb(220, 248, 198);
+	border-top-right-radius: 0px;
+	border-top-left-radius: 10px;
+}
+
+.message__name {
+	color: grey;
+	font-size: 12px;
+	position: absolute;
+}
+.message__nameright {
+	right: 0;
+}
+.message__avatar {
+	margin-right: 10px;
+}
